@@ -1,0 +1,14 @@
+{
+  "name": "chat2db",
+  "description": "Save discord messages in a database.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "pm2:start": "pm2 start src/index.js --name=chat2db"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eris": "^0.11.2",
+    "pg": "^7.17.1"
+  }
+}
